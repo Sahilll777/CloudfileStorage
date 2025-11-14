@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+uploads/
+*.pyc
+*.db
+.env
+*.log
+.aws/
+client/.token
+token.txt
+aws_credentials.txt

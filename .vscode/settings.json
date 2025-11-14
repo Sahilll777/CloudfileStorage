@@ -1,0 +1,25 @@
+{
+    // SQLTools config (keep yours)
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "CloudStorageDB",
+            "database": "cloud_storage",
+            "username": "root"
+        }
+    ],
+
+    // Python config to fix yellow line
+    "python.pythonPath": "venv\\Scripts\\python.exe",
+    "python.analysis.extraPaths": ["."],
+    "python.languageServer": "Pylance",
+    "python-envs.pythonProjects": []
+}
