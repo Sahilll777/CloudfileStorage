@@ -15,10 +15,13 @@ Tech Stack:
 | Secrets Handling | Environment Variables     |
 
 Running the Project :
+
 1.Install dependencies:
   pip install -r requirements.txt
+  
 2.Start the Flask Backend :
   python app.py
+
 
 Using the CLI App :
 python cloudfile_cli.py
